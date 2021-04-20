@@ -105,4 +105,11 @@ xhttp.open("GET", "ajax_info.txt", true);
 xhttp.send();
 }
 
-
+function swapPhoto() {
+	document.getElementById('photo').src = mImages[mCurrentIndex];
+	var location = document.getElementByClassName('location')[0].innerHTML = "Location:" + mImages[mCurrentIndex].description;
+	var description = document.getElementByClassName('description')[].innerHTML = "Description:" + mImages[mCurrentIndex].description;
+	var date = document.getElementByClassName('date')[0] = "Date" + mImages[mCurrentIndex].date;
+	
+	console.log('swap photo');
+}
