@@ -113,3 +113,7 @@ function swapPhoto() {
 	
 	console.log('swap photo');
 }
+
+var 90 = getElementsByClassName("rot90").slideToggle();
+var 180 = getElementsByClassName("rot180").slideToggle();
+var 270 = getElementsByClassName("rot270").slideToggle();
